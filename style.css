@@ -291,7 +291,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .footer_wrap { background: transparent url("images/whitebar.png") 0px -18px no-repeat;padding-top:47px;}
 	
 #main_footer { background: transparent url("images/bluebar.jpg") left bottom no-repeat;padding: 26px 0 38px 0;}
-.home #main_footer {margin-bottom: 110px;}
+#main_footer {margin-bottom: 110px;}
 	
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
