@@ -15,9 +15,10 @@
 
 				//	Fuild layout example 2, centering the items
 				$("#foo3").carouFredSel({
-	auto		: true,
+	auto		: 6000,
 	height: 70,
-	items       : 8,
+	width: '100%',
+	
 	pagination	: "#foo3_pag"
 });
 
@@ -26,12 +27,15 @@
 		</script>
 		<style type="text/css" media="all">
 .image_carousel {
-	padding: 15px 0 6px 40px; 
-	background-color: rgba(255, 255, 255, 0.8); bottom: 0; position: fixed; z-index: 99999999;
-	width: 920px;
+	padding: 15px 0 0px 0px; 
+	background: #e5e5e5 url(<?php echo get_template_directory_uri(); ?>/images/control_panel/body-bg17.png) repeat 0 0; bottom: 0; position: fixed; z-index: 99999999;
+	width: 100%; left:0;
+	-moz-box-shadow:    inset 0px 0px 8px #4c4c4c;
+   -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
+   box-shadow:         inset 0px 0px 8px #4c4c4c;
 }
 .image_carousel img {
-	border: 1px solid #ccc;
+	border: 1px solid #c7c7c7;
 	background-color: white;
 	padding: 9px;
 	margin: 7px;
@@ -41,18 +45,17 @@
 .pagination {
 	text-align: center;
 	padding-top: 4px;
-	width: 66px;
 	margin: 0 auto;
 }
-.pagination a {
-	background: url(<?php echo get_template_directory_uri(); ?>/images/nav-dot.png) 0 0 no-repeat transparent;
+.image_carousel .pagination a {
+	background: url(<?php echo get_template_directory_uri(); ?>/images/nav-dot.png) 2px 0 no-repeat transparent;
 	width: 15px;
 	height: 15px;
-	margin: 0 5px 0 0;
-	display: inline-block;
+	padding: 0 2px 0 2px;
+	display: inline-block; float: none;
 }
 .pagination a.selected {
-	background-position: -17px 0px;
+	background-position: -15px 0px;
 	cursor: default;
 }
 .pagination a span {
@@ -66,7 +69,7 @@
 	float: none;
 	clear: both;
 }
-img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; padding-left: 16px;}
+img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; padding-left: 16px; left: 80px;}
 
 		</style>
 		<img class="title-tab" src="<?php echo get_template_directory_uri(); ?>/images/sponsors-tab.png" />
