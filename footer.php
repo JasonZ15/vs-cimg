@@ -33,6 +33,7 @@
 	-moz-box-shadow:    inset 0px 0px 8px #4c4c4c;
    -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
    box-shadow:         inset 0px 0px 8px #4c4c4c;
+   border-top: 1px solid #fff;
 }
 .image_carousel img {
 	border: 1px solid #c7c7c7;
@@ -75,12 +76,14 @@ img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; paddin
 		<img class="title-tab" src="<?php echo get_template_directory_uri(); ?>/images/sponsors-tab.png" />
 <div class="image_carousel">	
 	<div id="foo3">
-  <a href="http://www.gmic-sv.com/wip/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/wip-partner-promo-1.jpg" width="77" height="40" /></a> 
-  <a href="http://www.gmic-sv.com/hysta/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/hysta-partner-event-1.jpg" width="77" height="40" /></a> 
-  <a href="#"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/cbnweekly-partner-promo-1.jpg" width="77" height="40" /></a> 
-  <a href="http://www.gmic-sv.com/99people/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/99people-partner-event-1.jpg" width="77" height="40" /></a> 
-  <a href="http://www.gmic-sv.com/sipa"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/sipa-partner-event-1.jpg" width="77" height="40" /></a> 
-  <a href="http://www.gmic-sv.com/bnb/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/BNB-partner-blog_1.jpg" width="77" height="40" /></a> 
+  <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/top-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
+  <a href="http://www.gmic-sv.com/wip/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/wip-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #7b6596;" /></a> 
+  <a href="http://www.gmic-sv.com/hysta/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/hysta-partner-event-1.jpg" width="77" height="40" style="border: 1px solid #7b6596;" /></a> 
+  <a href="#"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/cbnweekly-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #7b6596;" /></a> 
+  <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/diamond-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
+  <a href="http://www.gmic-sv.com/99people/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/99people-partner-event-1.jpg" width="77" height="40" height="40" style="border: 1px solid #5f85f1;" /></a> 
+  <a href="http://www.gmic-sv.com/sipa"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/sipa-partner-event-1.jpg" width="77" height="40" height="40" style="border: 1px solid #5f85f1;" /></a> 
+  <a href="http://www.gmic-sv.com/bnb/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/BNB-partner-blog_1.jpg" width="77" height="40" height="40" style="border: 1px solid #5f85f1;" /></a> 
   <a href="http://www.mobisights.com"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/mobisights-partner-blog-1.png" width="77" height="40" /></a> 
   <a href="http://www.gmic-sv.com/mobile-monday-seoul/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/MoMoSeoul-partner-promo-200-1.jpg" width="77" height="40" /></a> 
   <a href="http://www.gmic-sv.com/mobiad-org/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/mobiAD-partner-promo-2.jpg" width="77" height="40" /></a> 

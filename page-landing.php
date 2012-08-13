@@ -12,15 +12,16 @@ Template Name: Landing Page
 
 						
 		<div class="post-content">
-			<p class="clearfix silicon"><img alt="Silicon Vally" src="http://www.gmic-sv.com/wp-content/themes/gmicsv/images/graphic-1.png" style="float: left;">The Global Mobile Internet Conference (GMIC) is now
-coming to Silicon Valley. Join thousands of entrepreneurs,
-executives, investors, and developers this October at
-GMIC SV.</p>
-<p class="clearfix beijing"><img alt="GMIC Beijing" src="http://www.gmic-sv.com/wp-content/themes/gmicsv/images/graphic-2.png" />Learn from and network with key players in the world’s
-largest and hottest mobile markets. GMIC SV follows on
-the success of GMIC Beijing, Asia’s largest mobile Internet
-conference drawing over 5,200+ attendees from
-32 countries in 2012.</p>
+			<p class="clearfix silicon"><img alt="Silicon Vally" src="http://www.gmic-sv.com/wp-content/themes/gmicsv/images/graphic-1.png" style="float: left;">The Global Mobile Internet Conference, Asia’s most
+influential mobile Internet conference, is coming to Silicon
+Valley. GMIC SV expects 5,000 entrepreneurs, executives,
+investors, and developers from Silicon Valley and around
+the world to gather this October in San Jose, CA.</p>
+<p class="clearfix beijing"><img alt="GMIC Beijing" src="http://www.gmic-sv.com/wp-content/themes/gmicsv/images/graphic-2.png" />The conference themed “CONNECTING GLOBAL
+INNOVATORS” will bring together Silicon Valley and the
+world’s emerging epicenters of innovation in technology to
+discuss the shifts, challenges and opportunities for growth
+in the fastest growing markets.</p>
 <h2 class="page_title">Main Stage</h2>
 <p>Insights from keynote speakers and panelists from Silicon Valley and around the world.</p>
 <p class="clearfix"><img alt="GMIC Previous Speakers" src="http://www.gmic-sv.com/wp-content/themes/gmicsv/images/speakers.png" style="float: right; width: 600px; margin: -22px 0 0 -18px;" /><b>Previous Speakers:</b><br />

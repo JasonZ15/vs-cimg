@@ -103,6 +103,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		#top-menu li { padding-right: 17px; float:left; font-weight: bold; text-transform: uppercase; }
 			#top-menu a { font-size: 14px; color: #676761; text-decoration: none; }
 			   #breadcrumbs #top-menu a {color: #1A78C8;}
+			   #breadcrumbs #top-menu a:hover {color: #459feb;}
 			#top-menu a:hover { color: #202020;}
 			.page-template-page-landing-php #top-menu a {font-family: 'Open Sans', Arial, sans-serif !important;}
 			#top-menu > ul > li.current-menu-item > a { font-weight: lighter; }
@@ -354,7 +355,7 @@ img.alignright { display:inline; float:right; margin-left:15px; }
 /*---------------[DEFAULT DROPDOWN SETTINGS]---*/
 /*------------------------------------------------*/
 
-.nav ul { position:absolute; top:-999em; background-position: bottom; background-repeat: no-repeat; z-index: 10; background: #fff; -moz-box-shadow: 0 0 3px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1); box-shadow: 0 0 3px rgba(0,0,0,0.1); }
+.nav ul { position:absolute; top:-999em; background: #fff url(images/bg-web3.jpg) 150px -900px no-repeat; z-index: 10; -moz-box-shadow: 0 0 3px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1); box-shadow: 0 0 3px rgba(0,0,0,0.1); }
 .nav li { float:left; position:relative; }
 .nav a { display:block; float: left; }
 	.nav li:hover ul, ul.nav li.sfHover ul { left:-20px; top:30px; }
@@ -362,7 +363,7 @@ img.alignright { display:inline; float:right; margin-left:15px; }
 		.nav li li:hover ul, ul.nav li li.sfHover ul { left:220px; top:-10px; }
 	.nav li:hover ul, .nav li li:hover ul { top: -999em; }
 	.nav li li { display: block; padding: 8px 0; float: left; height: auto !important; }
-	.nav li ul { z-index:1000; padding: 10px 0 10px 22px; width: 220px; }
+	.nav li ul { z-index:1000; padding: 10px 0 10px 22px; width: 216px; }
 		.nav li li a:link, .nav li li a:visited { display: block; height: auto; float: left; }
 		.nav li:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
 	.nav ul a { width: 200px; }
