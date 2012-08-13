@@ -136,7 +136,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 						.blog-item a { text-decoration: none; color: #676761; }
 						.blog-item a:hover { color: #484844; }
 					.meta-info { font-style: italic; font-size: 12px; color: #c0c0b5; padding-bottom: 7px; }
-					.category-advisory-board-bios .meta-info, .home .meta-info {display:none;}
+					.category-speakers .meta-info, .category-advisory-board-bios .meta-info, .home .meta-info {display:none;}
 						.meta-info a { color: #c0c0b5; text-decoration: none; }	
 						.meta-info a:hover { color: #9e9e97; }
 					.blog-item p { line-height: 20px; }
@@ -158,6 +158,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 						.page-template-page-landing-php .page_title.sanjose span, .page-template-page-landing-chn-php .page_title.sanjose span {font-size: 36px;}
 						.title a:hover { color: #000; }
 					.post-content { padding: 37px 50px 45px; }
+						.page-template-page-template-portfolio-php .post-content {padding-top: 20px;}
 						.entry .meta-info { padding-bottom: 4px; font-size: 14px; }
 						.entry.category-partners .meta-info {display:none;}
 						.post-content p { font-size: 14px; font-weight: normal;}

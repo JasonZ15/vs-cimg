@@ -14,7 +14,7 @@
 			$thumb = $thumbnail["thumb"];
 		?>
 		<?php if ( '' != $thumb && 'on' == et_get_option('flexible_thumbnails') ) { ?>
-			<div class="post-thumbnail">
+			<div class="post-thumbnail" style="display: none;">
 				<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext); ?>	
 			</div> 	<!-- end .post-thumbnail -->
 		<?php } ?>

@@ -110,19 +110,22 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 							
 									<div class="et_pt_portfolio_item">
 										<?php if ($et_ptemplate_showtitle) { ?>
-											<h2 class="et_pt_portfolio_title"><?php echo $et_portfolio_title; ?></h2>
+											<h2 class="et_pt_portfolio_title"><a href="<?php the_permalink(); ?>" style="font-size: 18px;"><?php echo $et_portfolio_title; ?></a></h2>
 										<?php } ?>
 										<div class="et_pt_portfolio_entry<?php if ( $height == $et_portrait_height ) echo ' et_portrait_layout'; ?>">
 											<div class="et_pt_portfolio_image<?php if ($et_videolink <> '') echo ' et_video'; ?>">
 												<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, ''); ?>
 												<span class="et_pt_portfolio_overlay"></span>
 												
-												<a class="et_portfolio_zoom_icon fancybox" title="<?php the_title(); ?>"<?php if ($et_videolink == '') echo ' rel="portfolio"'; ?> href="<?php if ($et_videolink <> '') echo esc_url( '#' . $et_video_id ); else echo($thumbnail['fullpath']); ?>"><?php esc_html_e('Zoom in','Flexible'); ?></a>
+												
 												<a class="et_portfolio_more_icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Flexible'); ?></a>
 											</div> <!-- end .et_pt_portfolio_image -->
 										</div> <!-- end .et_pt_portfolio_entry -->
 										<?php if ($et_ptemplate_showdesc) { ?>
-											<p><?php truncate_post(90); ?></p>
+											<p style="text-align: center;">
+												<?php echo get_post_meta($post->ID,'person_title',true); ?><br />
+												<b><a target="_blank" href="http://<?php echo get_post_meta($post->ID,'person_company_url',true); ?>"><?php echo get_post_meta($post->ID,'person_company',true); ?></a></b>
+											</p>
 										<?php } ?>
 									</div> <!-- end .et_pt_portfolio_item -->
 							

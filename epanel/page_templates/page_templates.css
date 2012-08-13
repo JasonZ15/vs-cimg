@@ -95,8 +95,8 @@ textarea.input { width: 478px; height:130px; }
 .et_portfolio_small { margin-left: -45px !important; }
 	.et_portfolio_small .et_pt_portfolio_item { margin-left: 45px; width: 152px; }
 	.et_portfolio_small .et_portfolio_more_icon, .et_portfolio_small .et_portfolio_zoom_icon { top: 30px; }
-		.et_portfolio_small .et_portrait_layout .et_portfolio_more_icon, .et_portfolio_small .et_portrait_layout .et_portfolio_zoom_icon { top: 67px; }
-	.et_portfolio_small .et_portfolio_more_icon { left: 38px; }
+		.et_portfolio_small .et_portrait_layout .et_portfolio_more_icon, .et_portfolio_small .et_portrait_layout .et_portfolio_zoom_icon { top: 6px; }
+	.et_portfolio_small .et_portfolio_more_icon { left: 100px; }
 	.et_portfolio_small .et_portfolio_zoom_icon { left: 77px; }
 	
 .et_portfolio_large { margin-left: -76px !important; }
