@@ -30,6 +30,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 	<div id="left-area">
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>				
 			<article id="post-<?php the_ID(); ?>" <?php post_class('entry clearfix'); ?>>
+				<a style="float: right;" href="http://www.gmic-sv.com/previous-speakers" id="previous-speakers" class="action-button"><span class="color"><span class="text">Previous Speakers at GMIC</span></span></a>
 				<h1 class="page_title"><?php the_title(); ?></h1>
 
 				<?php
@@ -109,9 +110,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 							<?php } ?>
 							
 									<div class="et_pt_portfolio_item">
-										<?php if ($et_ptemplate_showtitle) { ?>
-											<h2 class="et_pt_portfolio_title"><a href="<?php the_permalink(); ?>" style="font-size: 18px;"><?php echo $et_portfolio_title; ?></a></h2>
-										<?php } ?>
+										
 										<div class="et_pt_portfolio_entry<?php if ( $height == $et_portrait_height ) echo ' et_portrait_layout'; ?>">
 											<div class="et_pt_portfolio_image<?php if ($et_videolink <> '') echo ' et_video'; ?>">
 												<?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, ''); ?>
@@ -121,10 +120,13 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 												<a class="et_portfolio_more_icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Flexible'); ?></a>
 											</div> <!-- end .et_pt_portfolio_image -->
 										</div> <!-- end .et_pt_portfolio_entry -->
+										<?php if ($et_ptemplate_showtitle) { ?>
+											<h2 class="et_pt_portfolio_title" style="padding-bottom: 8px;"><a href="<?php the_permalink(); ?>" style="font-size: 18px;"><?php echo $et_portfolio_title; ?></a></h2>
+										<?php } ?>
 										<?php if ($et_ptemplate_showdesc) { ?>
-											<p style="text-align: center;">
-												<?php echo get_post_meta($post->ID,'person_title',true); ?><br />
-												<b><a target="_blank" href="http://<?php echo get_post_meta($post->ID,'person_company_url',true); ?>"><?php echo get_post_meta($post->ID,'person_company',true); ?></a></b>
+											<p style="line-height: 14px">
+												<span style="display: block; padding-bottom: 4px;color:#333;"><b><?php echo get_post_meta($post->ID,'person_title',true); ?></b></span>
+												<b style="color: #00B7F3;"><?php echo get_post_meta($post->ID,'person_company',true); ?></b>
 											</p>
 										<?php } ?>
 									</div> <!-- end .et_pt_portfolio_item -->
