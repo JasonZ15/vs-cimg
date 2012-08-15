@@ -15,7 +15,7 @@
 
 				//	Fuild layout example 2, centering the items
 				$("#foo3").carouFredSel({
-	auto		: 6000,
+	auto		: false,
 	height: 70,
 	width: '100%',
 	
@@ -80,7 +80,7 @@ img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; paddin
   <a href="http://www.gmic-sv.com/uc-web/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/ucweb.png" height="57" style="border: 1px solid #7b6596; padding: 0;" /></a> 
   <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/platinum-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
   <a href="http://www.gmic-sv.com/tapjoy/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/tapjoy_logo_small.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a> 
-  <a href="http://www.gmic-sv.com/wondershare/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/wondershare.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a> 
+  <a href="#"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/wondershare.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a> 
   <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/event-partner-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
   <a href="http://www.gmic-sv.com/svcwireless/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/svc-wireless-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a> 
   <a href="http://www.gmic-sv.com/svforum/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/svforum-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a> 
