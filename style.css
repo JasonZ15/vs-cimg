@@ -135,8 +135,9 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 					.blog-item h2 { text-transform: uppercase; font-weight: bold; font-size: 18px; padding-bottom: 5px; }	
 						.blog-item a { text-decoration: none; color: #676761; }
 						.blog-item a:hover { color: #484844; }
-					.meta-info { font-style: italic; font-size: 12px; color: #c0c0b5; padding-bottom: 7px; }
-					.category-sponsors .meta-info, .category-speakers .meta-info, .category-advisory-board-bios .meta-info, .home .meta-info {display:none;}
+					.meta-info { font-style: italic; font-size: 12px; color: #c0c0b5; padding-bottom: 7px; display: none;}
+					.category-recent-news .meta-info {display:block;}
+					.home .category-recent-news .meta-info {display:none;}
 						.meta-info a { color: #c0c0b5; text-decoration: none; }	
 						.meta-info a:hover { color: #9e9e97; }
 					.blog-item p { line-height: 20px; }
