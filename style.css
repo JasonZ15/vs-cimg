@@ -387,7 +387,13 @@ img.alignright { display:inline; float:right; margin-left:15px; }
 		#wp-calendar #prev a, #wp-calendar #next a { font-size: 9pt; }
 		#wp-calendar #next a { padding-right: 10px; text-align: right; }
 		#wp-calendar #prev a { padding-left: 10px; text-align: left; }
-		
+
+/*------------------------------------------------*/
+/*-------------------[PAGE NAVI]------------------*/
+/*------------------------------------------------*/		
+.fb_edge_widget_with_comment.fb-like {position: absolute; top: 4px; left: 4px; z-index: 9999999;}
+	.et_media_description .fb_edge_widget_with_comment.fb-like { position: static; display: block; padding-top: 4px;}
+
 /*------------------------------------------------*/
 /*-------------------[PAGE NAVI]------------------*/
 /*------------------------------------------------*/

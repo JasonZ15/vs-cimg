@@ -10,7 +10,15 @@
 <script type="text/javascript" language="javascript" src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/js/jquery.carouFredSel-5.6.1-packed.js"></script>
 		<script type="text/javascript" language="javascript">
 			$(function() {
-
+$('#likebutton').click(function(){
+    $.ajax({
+       type: 'POST',
+       url: 'https://graph.facebook.com/OBJECT_ID/likes?method=POST&format=json&access_token=TOKEN',
+       success: function(res) {
+          // do something like style button
+        }
+    });
+});
 				//	Basic carousel, no options
 				$('#foo0').carouFredSel();
 
@@ -172,9 +180,19 @@
 		</style>
 	</head>
 	<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
 		<div id="intro">
-			<h1><a href="http://caroufredsel.frebsite.nl">carouFredSel</a></h1>
+			<h1><a href="#" id="likebutton">carouFredSel</a></h1>
+			
 			<p>This is a demo page, for more examples, the complete documentation, tips &amp; tricks, a support-forum and even a configuration robot, visit <a href="http://caroufredsel.frebsite.nl">caroufredsel.frebsite.nl</a></p>
 		</div>
 

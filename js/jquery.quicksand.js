@@ -77,7 +77,7 @@ Github site: http://github.com/razorjack/quicksand
                     // but new webkit builds cause flickering when replacing the collections
                     $toDelete = $sourceParent.find('> *');
                     $sourceParent.prepend($dest.find('> *'));
-                    $toDelete.remove();
+                    // $toDelete.remove();
                          
                     if (adjustHeightOnCallback) {
                         $sourceParent.css('height', destHeight);

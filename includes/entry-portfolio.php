@@ -22,7 +22,8 @@
 		}
 	}
 ?>
-<div class="portfolio-item" <?php echo $project_category; ?>data-project_id="<?php echo esc_attr( get_the_ID() ); ?>">
+<div style="position: relative;" class="portfolio-item" <?php echo $project_category; ?>data-project_id="<?php echo esc_attr( get_the_ID() ); ?>">
+	<div class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>
 	<a href="<?php the_permalink(); ?>">
 		<?php
 			if ( '' != $thumb ) {

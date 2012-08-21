@@ -170,7 +170,7 @@ if ( $et_ptemplate_portfolio_size == 3 ) $et_ptemplate_portfolio_class = ' et_po
 						
 						<?php if ( '' != $et_videos_output ) echo '<div class="et_embedded_videos">' . $et_videos_output . '</div>'; ?>
 						
-						<h2 style="padding: 0 0 14px 7px;">Panelists</h2>
+						<h2 style="padding: 0 0 14px 7px;">Speakers</h2>
 						<?php $gallery_query = '';
 						$portfolio_count = 1;
 						$et_open_row = false;

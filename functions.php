@@ -310,7 +310,7 @@ function et_show_ajax_project(){
 		
 		echo 	'<div class="et_media_description">' . 
 					'<h2 class="title">' . '<a href="' . get_permalink() . '">' . get_the_title() . '</a>' . '</h2>' .
-					truncate_post( 560, false );
+					get_the_excerpt();
 
 		echo '</div> <!-- end .et_media_description -->';
 		

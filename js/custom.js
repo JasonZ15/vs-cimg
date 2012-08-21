@@ -67,6 +67,8 @@
 						et_apply_flexslider( $new_element );
 						
 						et_display_ajax_project( project_id );
+						$('.et_media_description .fb-like').remove();
+						$('.et_active_item .fb-like').clone().appendTo('.et_media_description');
 					}
 				});
 			} else {

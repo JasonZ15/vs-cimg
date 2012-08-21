@@ -3,8 +3,9 @@
 <?php get_template_part('includes/breadcrumbs', 'index'); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-	<h1 class="page_title"><?php the_title(); ?></h1>
-		
+	
+	<h1 style="float: left;" class="page_title"><?php the_title(); ?></h1>
+	<div style="position: static; float: left; padding: 23px 0 0 16px;" class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>	
 	<?php
 		$media = get_post_meta( $post->ID, '_et_used_images', true );
 		$width = apply_filters( 'et_single_project_width', 960 );
@@ -48,6 +49,7 @@
 	<div id="content-area" class="clearfix">
 		<div id="left-area">
 			<?php get_template_part('loop', 'single_project'); ?>
+			<div style="position: static; display: block; padding: 0 0 0 50px;" class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>
 		</div> <!-- end #left_area -->
 	<?php endwhile; ?>
 		<?php get_sidebar(); ?>
