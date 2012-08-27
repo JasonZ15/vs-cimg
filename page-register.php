@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Eventbrite Register Page
+Template Name: No Margin Full Width Page
 */
 ?>
 <!DOCTYPE html>
@@ -54,7 +54,10 @@ Template Name: Eventbrite Register Page
 <?php get_template_part('includes/breadcrumbs', 'page'); ?>
 
 <div id="content-area" class="fullwidth clearfix">
-<iframe  src="http://gmic-sv.eventbrite.com?ref=eweb" frameborder="0" height="2400" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+<h1 class="page_title"><?php the_title(); ?></h1>
+<?php the_content(); ?>
+<?php endwhile; // end of the loop. ?>
 </div> 	<!-- end #content-area -->
 
 <?php get_footer(); ?>
