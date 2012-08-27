@@ -10,6 +10,15 @@
 
 	<?php do_action('et_head_meta'); ?>
 	
+	<meta property="og:title" content="<?php elegant_titles(); ?>" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="<?php the_permalink(); ?>" />
+	<meta property="og:image" content="<?php $image = wp_get_attachment_image_src ( get_post_thumbnail_id ( $post_id ), 'single-post-thumbnail' );
+echo $image[0]; ?>" />
+	<meta property="og:site_name" content="Global Mobile Internet Conference Silicon Valley" />
+	<meta property="og:description" content="<?php echo get_the_excerpt(); ?>" />
+	<meta property="fb:admins" content="670979947" />
+	
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fonts.css" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -30,11 +39,6 @@
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>
-
-	<?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?>>
-	<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -42,6 +46,11 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+	<?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
+	<div id="fb-root"></div>
+
 
 	<div id="container">
 		<?php do_action('et_header_top'); ?>
