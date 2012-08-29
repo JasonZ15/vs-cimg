@@ -181,12 +181,12 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 #et_ajax_portfolio_container { clear: both; border-top: 1px solid #f0f0e5; position: relative; }
 .et_ajax_container_active { min-height: 479px; }
 	.et_media, .et_media_description { float: left; }
-	.et_media { width: 600px; margin: -1px 40px 0 0; }
+	.et_media { width: 420px; margin: -1px 40px 0 0; }
 		.et_media img { display: block; }
-	.et_media_description  { width: 284px; padding-top: 65px; }
+	.et_media_description  { width: 384px; padding-top: 65px; padding-right: 40px;}
 		#et_ajax_portfolio_container .title { font-size: 14px; text-transform: uppercase; font-weight: bold; letter-spacing: 0; padding-bottom: 13px; }
 	#et_ajax_portfolio_container .slide { height: 480px; }
-	#et_ajax_portfolio_container a.more { font-weight: bold; padding-right: 0; margin-top: 30px; position: absolute; bottom: 30px; right: 30px; }
+	#et_ajax_portfolio_container a.more { font-weight: bold; padding-right: 0; margin-top: 30px; position: static; display:block; float: left; color: #00B7F3;}
 	.et_ajax_container_active #et_close_ajax { background: url(images/portfolio_close.png) no-repeat; display: block; position: absolute; top: 40px; right: 40px; width: 10px; height: 11px; text-indent: -9999px; z-index: 20; }
 	
 .post ul, .comment-content ul, .et_media_description ul { list-style-type: disc; padding: 0 0 23px 16px; line-height: 26px; }
@@ -196,6 +196,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		
 body.single-project .flexslider { min-height: 485px; }
 .single_project_image { z-index: 100; }
+	.single-project .single_project_image {float: left; padding-left: 50px; padding-right: 16px;} 
 
 .fullwidth #left-area { width: auto; float: none; }
 #et_portfolio_sort_links { text-align: center; border-top: 1px solid #F0F0E5; padding: 14px 0; clear: both; }

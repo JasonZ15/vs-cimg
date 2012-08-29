@@ -4,12 +4,14 @@
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	
-	<h1 style="float: left;" class="page_title"><?php the_title(); ?></h1>
-	<div style="position: static; float: left; padding: 23px 0 0 16px;" class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>	
-	<?php
+	
+	
+	<div id="content-area" class="fullwidth clearfix">
+		<div id="left-area">
+			<?php
 		$media = get_post_meta( $post->ID, '_et_used_images', true );
-		$width = apply_filters( 'et_single_project_width', 960 );
-		$height = apply_filters( 'et_single_project_height', 480 );
+		$width = apply_filters( 'et_single_project_width', 240 );
+		$height = apply_filters( 'et_single_project_height', 240 );
 		
 		if ( $media ){
 			echo '<div class="flexslider"><ul class="slides">';
@@ -45,14 +47,39 @@
 			print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext);
 		}
 	?>
+	<div style="float: right; padding-right: 12px;padding-top:20px;">
+		<b>Vote for Others:</b>
+		<ul style="padding-bottom:6px;">
+			<?php
+			global $post;
+			$args = array( 'numberposts' => 5, 'post_type' => 'project', 'orderby' => 'rand' );
+			$myposts = get_posts( $args );
+			foreach( $myposts as $post ) :	setup_postdata($post); ?>
+				<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+			<?php endforeach; ?>
+			<?php wp_reset_query(); ?>
+		</ul>
+		<b><a href="http://www.gmic-sv.com/appattack-voting/">See All Apps &rarr;</a></b>
+	 </div>
+	<h1 style="" class="page_title"><?php the_title(); ?></h1>	
+	<p>Developer: 
+		<?php 
+		$developer_website = get_post_meta($post->ID,'app_url',true);
+
+  if ( $developer_website ) { ?>
+    <b><a target="_blank" href="<?php echo get_post_meta($post->ID,'app_url',true); ?>"><?php echo get_post_meta($post->ID,'app_developer',true); ?></a></b><br />
+  <?php }
+  else { ?>
+    <b><?php echo get_post_meta($post->ID,'app_developer',true); ?></b><br />
+  <?php } ?>
+		Compatible Platforms: <b><?php echo get_post_meta($post->ID,'app_platforms',true); ?></b>
+	</p>
+	<div style="position: static; padding: 14px 0 0 0; " class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>
 	
-	<div id="content-area" class="clearfix">
-		<div id="left-area">
 			<?php get_template_part('loop', 'single_project'); ?>
-			<div style="position: static; display: block; padding: 0 0 0 50px;" class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>
+
 		</div> <!-- end #left_area -->
 	<?php endwhile; ?>
-		<?php get_sidebar(); ?>
 	</div> 	<!-- end #content-area -->
 	
 <?php get_footer(); ?>

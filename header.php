@@ -17,7 +17,7 @@
 echo $image[0]; ?>" />
 	<meta property="og:site_name" content="Global Mobile Internet Conference Silicon Valley" />
 	<meta property="og:description" content="<?php echo get_the_excerpt(); ?>" />
-	<meta property="fb:admins" content="670979947" />
+	<meta property="fb:app_id" content="377806332292440" />
 	
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fonts.css" type="text/css" />

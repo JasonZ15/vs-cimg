@@ -267,8 +267,8 @@ function et_show_ajax_project(){
 	$portfolio_query = new WP_Query( apply_filters( 'et_ajax_portfolio_args', $portfolio_args ) );
 	while ( $portfolio_query->have_posts() ) : $portfolio_query->the_post();
 		global $post;
-		$width = apply_filters( 'et_ajax_media_width', 600 );
-		$height = apply_filters( 'et_ajax_media_height', 480 );
+		$width = apply_filters( 'et_ajax_media_width', 420 );
+		$height = apply_filters( 'et_ajax_media_height', 420 );
 		
 		$media = get_post_meta( $post->ID, '_et_used_images', true );
 		echo '<div class="et_media">';
