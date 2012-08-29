@@ -59,7 +59,8 @@
 			<?php endforeach; ?>
 			<?php wp_reset_query(); ?>
 		</ul>
-		<b><a href="http://www.gmic-sv.com/appattack-voting/">See All Apps &rarr;</a></b>
+		<b><a href="http://www.gmic-sv.com/appattack-voting/">See All Apps &rarr;</a></b><br />
+		<b><a href="http://www.gmic-sv.com/appattack/">Submit Your Own App &rarr;</a></b>
 	 </div>
 	<h1 style="" class="page_title"><?php the_title(); ?></h1>	
 	<p>Developer: 
@@ -74,7 +75,7 @@
   <?php } ?>
 		Compatible Platforms: <b><?php echo get_post_meta($post->ID,'app_platforms',true); ?></b>
 	</p>
-	<div style="position: static; padding: 14px 0 0 0; " class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="240" data-show-faces="false"></div>
+	<div style="position: static; padding: 14px 0 0 0; " class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-width="450" data-show-faces="true"></div>
 	
 			<?php get_template_part('loop', 'single_project'); ?>
 
