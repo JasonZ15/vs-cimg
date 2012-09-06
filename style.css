@@ -308,11 +308,13 @@ a.action-button .text {display: block;background-color:#3fa2f7; font-family: "He
 a.action-button:hover { background-color: transparent; text-decoration: underline;}
 #header a.action-button {margin: 22px 0 6px -3px;}
 
-a#go-register .color {background-color:#3a7709;background-position: -94px 0px;}
+a#go-register .color {background-color:#3a7709;background-position: -335px 0px;}
 a#go-register .text {background-color:#83ac35;}
+a#go-register:hover {color:#0a4f07;text-decoration: none;}
 
-a#sponsor .color {background-position: -54px 0px;background-color:#398a5c;}
+a#sponsor .color {background-position: -335px 0px;background-color:#398a5c;}
 a#sponsor .text {background-color:#73b179;}
+a#sponsor:hover {color:#0a4f07;text-decoration: none;}
 
 a#wrap-up-doc {color:#1a78c8;}
 a#wrap-up-doc .color {background-color:#1a78c8;padding-left: 22px;background-position: -84px 0px;}

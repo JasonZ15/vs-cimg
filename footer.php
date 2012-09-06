@@ -21,11 +21,30 @@
 	
 	pagination	: "#foo3_pag"
 });
+//	Scrolled by user interaction
+				$('#foo2').carouFredSel({
+					pagination	: {
+		container		: "#pager2",
+		anchorBuilder	: function( nr, item ) {
+			var title = item.find( "h2.agenda_title" ).text();
+			return "<span>" + title + "</span>";
+		}
 
+	},
+					auto: false,
+				});
 
 			});
 		</script>
 		<style type="text/css" media="all">
+		#pager2 {width: 180px; position: absolute; top: 80px; left:28px;}
+		#pager2 span {display:block;float:left; margin-right: 12px;margin-bottom: 4px; border: none; color: #0d4781;cursor: pointer; font-size: 14px; font-weight:bold;}
+		#pager2 span.selected, #pager2 span.selected:hover {border-bottom: 1px dotted #0B60AE;color:#459FEB;}
+		#pager2 span:hover {border-bottom: 1px solid #0B60AE;}
+		.list_carousel {margin-left: 30px; border-left: 0px dotted #4083c6;}
+	.carousel_wrapper {width: 760px;}
+	ul#foo2 > li { list-style: none;}
+	h2.agenda_title {visibility: hidden;}
 .image_carousel {
 	padding: 15px 0 0px 0px; 
 	background: #e5e5e5 url(<?php echo get_template_directory_uri(); ?>/images/control_panel/body-bg17.png) repeat 0 0; bottom: 0; position: fixed; z-index: 99999999;
