@@ -200,6 +200,7 @@ body.single-project .flexslider { min-height: 485px; }
 
 .fullwidth #left-area { width: auto; float: none; }
 #et_portfolio_sort_links { text-align: center; border-top: 1px solid #F0F0E5; padding: 14px 0; clear: both; }
+	#et_portfolio_sort_links.speakers_page {border-top: none; border-bottom: 1px solid #F0F0E5;}
 	#et_portfolio_sort_links li { display: inline; margin: 0 8px; }
 		#et_portfolio_sort_links a, #et_portfolio_sort_links .active a:hover { color: #676761; font-size: 14px; text-transform: uppercase; }
 		#et_portfolio_sort_links a:hover { text-decoration: none; color: #111; }
@@ -298,6 +299,86 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	
 #main_footer { background: transparent url("images/bluebar.jpg") left bottom no-repeat;padding: 26px 0 38px 0;}
 #main_footer {margin-bottom: 110px;}
+	/*---------------------[back to top button]-------------------*/
+	.home #backtotop {visibility: hidden;}
+	#backtotop {
+		position: fixed;
+		right:0px;
+		bottom:135px;
+		display:none;/*hid the button first*/
+		background-color: #00B7F3;
+		padding: 2px 0 0 4px;
+	}
+	#backtotop a {
+		text-decoration:none;
+		border:0 none;
+		display:block;
+		width:61px;
+		height:35px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	#backtotop a:hover {
+		opacity:.8; /*mouse over fade effect*/
+	}
+	/*---------------------[sliding content]-------------------*/
+	#pager2 {width: 400px; position: absolute; top: 80px; left:28px;}
+	#pager2 span {display:block;float:left; margin-right: 12px;margin-bottom: 4px; border: none; color: #0d4781;cursor: pointer; font-size: 14px; font-weight:bold;}
+	#pager2 span.selected, #pager2 span.selected:hover {border-bottom: 1px dotted #0B60AE;color:#459FEB;}
+	#pager2 span:hover {border-bottom: 1px solid #0B60AE;}
+	.list_carousel {margin-left: 30px; border-left: 0px dotted #4083c6;}
+	.carousel_wrapper {width: 760px;}
+	ul#foo2 > li { list-style: none;}
+	h2.agenda_title {visibility: hidden;}
+	.image_carousel {
+		padding: 15px 0 0px 0px; 
+		background: #e5e5e5 url("images/control_panel/body-bg17.png") repeat 0 0; bottom: 0; position: fixed; z-index: 99999999;
+		width: 100%; left:0;
+		-moz-box-shadow:    inset 0px 0px 8px #4c4c4c;
+	   -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
+	   box-shadow:         inset 0px 0px 8px #4c4c4c;
+	   border-top: 1px solid #fff;
+	}
+	.image_carousel img {
+		border: 1px solid #c7c7c7;
+		background-color: white;
+		padding: 9px;
+		margin: 7px;
+		display: block;
+		float: left;
+	}
+	.image_carousel .pagination {
+		text-align: center;
+		padding: 0;
+		padding-top: 4px;
+		margin: 0 auto;
+		overflow: visible;
+	}
+	.image_carousel .pagination a {
+		background: url("images/nav-dot.png") 2px 0 no-repeat transparent;
+		width: 15px;
+		height: 15px;
+		padding: 0 2px 0 2px;
+		display: inline-block; float: none;
+	}
+	.pagination a.selected {
+		background-position: -15px 0px;
+		cursor: default;
+	}
+	.pagination a span {
+		display: none;
+	}
+	.image_carousel a {
+		display: block;
+		float: left;
+	}
+	.clearfix {
+		float: none;
+		clear: both;
+	}
+	img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; padding-left: 16px; left: 80px;}
+
 	
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
@@ -312,7 +393,7 @@ a#go-register .color {background-color:#3a7709;background-position: -335px 0px;}
 a#go-register .text {background-color:#83ac35;}
 a#go-register:hover {color:#0a4f07;text-decoration: none;}
 
-a#sponsor .color {background-position: -335px 0px;background-color:#398a5c;}
+a#sponsor .color {background-position: -305px 0px;background-color:#398a5c;}
 a#sponsor .text {background-color:#73b179;}
 a#sponsor:hover {color:#0a4f07;text-decoration: none;}
 

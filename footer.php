@@ -15,83 +15,53 @@
 
 				//	Fuild layout example 2, centering the items
 				$("#foo3").carouFredSel({
-	auto		: false,
-	height: 70,
-	width: '100%',
-	
-	pagination	: "#foo3_pag"
-});
-//	Scrolled by user interaction
+					auto		: false,
+					height: 70,
+					width: '100%',
+					pagination	: "#foo3_pag"
+				});
+				
+				//	Scrolled by user interaction
 				$('#foo2').carouFredSel({
 					pagination	: {
-		container		: "#pager2",
-		anchorBuilder	: function( nr, item ) {
-			var title = item.find( "h2.agenda_title" ).text();
-			return "<span>" + title + "</span>";
-		}
-
-	},
+						container		: "#pager2",
+						anchorBuilder	: function( nr, item ) {
+							var title = item.find( "h2.agenda_title" ).text();
+							return "<span>" + title + "</span>";
+						}
+					},
 					auto: false,
 				});
+				
+				//if (navigator.platform.match(/iP(od|hone|ad)/i)) {
+				//    $(window).scroll(function() {
+				//        $('#fixed-div').css({
+				//            position : 'absolute',
+				//            top      : ($(window).height() + $(document).scrollTop() - 110) + 'px'
+				//        });
+				//    });
+				//}
+
+				//back to top button
+				var pxShow = 300;//height on which the button will show
+				var fadeInTime = 1000;//how slow/fast you want the button to show
+				var fadeOutTime = 1000;//how slow/fast you want the button to hide
+				var scrollSpeed = 300;//how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
+				jQuery(window).scroll(function(){
+					if(jQuery(window).scrollTop() >= pxShow){
+						jQuery("#backtotop").fadeIn(fadeInTime);
+					}else{
+						jQuery("#backtotop").fadeOut(fadeOutTime);
+					}
+				});
+				 
+				jQuery('#backtotop a').click(function(){
+					jQuery('html, body').animate({scrollTop:0}, scrollSpeed); 
+					return false; 
+				}); 
 
 			});
 		</script>
-		<style type="text/css" media="all">
-		#pager2 {width: 180px; position: absolute; top: 80px; left:28px;}
-		#pager2 span {display:block;float:left; margin-right: 12px;margin-bottom: 4px; border: none; color: #0d4781;cursor: pointer; font-size: 14px; font-weight:bold;}
-		#pager2 span.selected, #pager2 span.selected:hover {border-bottom: 1px dotted #0B60AE;color:#459FEB;}
-		#pager2 span:hover {border-bottom: 1px solid #0B60AE;}
-		.list_carousel {margin-left: 30px; border-left: 0px dotted #4083c6;}
-	.carousel_wrapper {width: 760px;}
-	ul#foo2 > li { list-style: none;}
-	h2.agenda_title {visibility: hidden;}
-.image_carousel {
-	padding: 15px 0 0px 0px; 
-	background: #e5e5e5 url(<?php echo get_template_directory_uri(); ?>/images/control_panel/body-bg17.png) repeat 0 0; bottom: 0; position: fixed; z-index: 99999999;
-	width: 100%; left:0;
-	-moz-box-shadow:    inset 0px 0px 8px #4c4c4c;
-   -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
-   box-shadow:         inset 0px 0px 8px #4c4c4c;
-   border-top: 1px solid #fff;
-}
-.image_carousel img {
-	border: 1px solid #c7c7c7;
-	background-color: white;
-	padding: 9px;
-	margin: 7px;
-	display: block;
-	float: left;
-}
-.pagination {
-	text-align: center;
-	padding-top: 4px;
-	margin: 0 auto;
-}
-.image_carousel .pagination a {
-	background: url(<?php echo get_template_directory_uri(); ?>/images/nav-dot.png) 2px 0 no-repeat transparent;
-	width: 15px;
-	height: 15px;
-	padding: 0 2px 0 2px;
-	display: inline-block; float: none;
-}
-.pagination a.selected {
-	background-position: -15px 0px;
-	cursor: default;
-}
-.pagination a span {
-	display: none;
-}
-.image_carousel a {
-	display: block;
-	float: left;
-}
-.clearfix {
-	float: none;
-	clear: both;
-}
-img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; padding-left: 16px; left: 80px;}
-
-		</style>
 		<img class="title-tab" src="<?php echo get_template_directory_uri(); ?>/images/sponsors-tab.png" />
 <div class="image_carousel">	
 	<div id="foo3">
@@ -100,6 +70,8 @@ img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; paddin
   <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/platinum-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
   <a href="http://www.gmic-sv.com/tapjoy/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/tapjoy_logo_small.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a> 
   <a href="#"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/wondershare.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a> 
+  <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
+  <a href="http://www.gmic-sv.com/northern-light-venture-capital/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/northernlight.jpg" height="57" style="border: 1px solid #eba706; padding: 0;" /></a>
   <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/event-partner-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
   <a href="http://www.gmic-sv.com/mobile-monday"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/momo_sv_1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a>
   <a href="http://www.gmic-sv.com/wip/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/wip-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a>
@@ -116,6 +88,9 @@ img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; paddin
 	</div>
 	<div class="clearfix"></div>
 	<div class="pagination" id="foo3_pag"></div>
+</div>
+<div id="backtotop">
+   <a href="#">&uarr; TOP</a>
 </div>
 </body>
 </html>
