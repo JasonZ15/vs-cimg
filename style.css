@@ -173,6 +173,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 						.readmore:hover { text-decoration: none; color: #111; }
 			#sidebar { width: 320px; float:left; }
 				.widget { padding: 50px 10px 8px 50px; }
+					#categoryposts-2.widget {padding-top: 32px;}
+					#text-3.widget {padding-top: 16px;}
 					.widgettitle { font-weight: bold; text-transform: uppercase; font-size: 14px; color: #676761; padding-bottom: 13px; }
 						.widget li { background:url(images/footer-bullet.png) no-repeat 0 8px; padding-bottom: 7px; padding-left: 15px; font-weight: normal; font-size: 14px; }
 							.widget a { color:#676761; text-shadow:none; text-decoration: none; }

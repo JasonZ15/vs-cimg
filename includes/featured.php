@@ -14,14 +14,14 @@
 		$featured_cat_term = get_term_by( 'name', $featured_cat, 'project_category' );
 
 		$featured_num = et_get_option('flexible_featured_num');
-		
+		//use posts
 		if (et_get_option('flexible_use_pages','false') == 'false') {
 			if ( 'on' == et_get_option('flexible_use_posts','false') )
 				$featured_query = new WP_Query( array(
 					'showposts' => $featured_num,
 					'cat' => get_catId( et_get_option('flexible_feat_posts_cat') )
 				) );
-			else				
+			else	//use projects			
 				$featured_query = new WP_Query( array(
 					'post_type' => 'project',
 					'showposts' => $featured_num,
@@ -36,7 +36,7 @@
 				) );
 		} else { 
 			global $pages_number;
-			
+			//use pages
 			if (et_get_option('flexible_feat_pages') <> '') $featured_num = count(et_get_option('flexible_feat_pages'));
 			else $featured_num = $pages_number;
 			
@@ -47,9 +47,16 @@
 							'post__in' => (array) et_get_option('flexible_feat_pages'),
 							'showposts' => (int) $featured_num)
 						);
-		}
-		
-		while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
+		} ?>
+		<li class="slide">					
+				<a href="http://www.gmic-sv.com/sponsorship/">							
+					<img src="http://static.gmic-sv.com/wp-content/uploads/2012/08/companies-slide31.jpg" alt="Sponsorship" width="960px" height="360px"></a>
+			</li>
+		<li class="slide">					
+				<a href="http://www.gmic-sv.com/vp-of-mobile-to-discuss-facebooks-mobile-strategy-at-gmic-sv/">							
+					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/slider960x360-speaker-quote-facebook.jpg" alt="Keynote Speaker" width="960px" height="360px"></a>
+		</li>
+		<?php while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
 			<li class="slide">					
 				<a href="<?php echo esc_url( get_permalink() ); ?>">							
 					<?php
