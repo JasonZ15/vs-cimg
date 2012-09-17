@@ -333,14 +333,15 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	.carousel_wrapper {width: 760px;}
 	ul#foo2 > li { list-style: none;}
 	h2.agenda_title {visibility: hidden;}
+	#speaker_slider.image_carousel {position: static;}
 	.image_carousel {
 		padding: 15px 0 0px 0px; 
 		background: #e5e5e5 url("images/control_panel/body-bg17.png") repeat 0 0; bottom: 0; position: fixed; z-index: 99999999;
 		width: 100%; left:0;
 		-moz-box-shadow:    inset 0px 0px 8px #4c4c4c;
-	   -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
-	   box-shadow:         inset 0px 0px 8px #4c4c4c;
-	   border-top: 1px solid #fff;
+	    -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
+	    box-shadow:         inset 0px 0px 8px #4c4c4c;
+	    border-top: 1px solid #fff;
 	}
 	.image_carousel img {
 		border: 1px solid #c7c7c7;
@@ -380,7 +381,33 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		clear: both;
 	}
 	img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; padding-left: 16px; left: 80px;}
-
+	/*---------------------[speaker slider homepage]-------------------*/
+	#speaker_slider.image_carousel {
+		background-image: none;
+		background-color: transparent;
+		-moz-box-shadow:    none;
+	    -webkit-box-shadow: none;
+	    box-shadow:         none;
+	    border-top: 0px solid #fff;
+	    margin-top: -10px;
+	    padding: 0 0 28px 0;
+	}
+	#foo1 div {height: 150px;width: 160px;float: left;}
+	#foo1 span {display: block;text-align:center;}
+	#foo1 a {margin:0 auto; float: none; display:block; width: 90px; height: 90px; background: transparent url(images/keynote-speaker-icon_11.png) 0 0 no-repeat;}
+		#speaker2 a {background-image: url(images/keynote-speaker-icon_19.png);}
+		#speaker3 a {background-image: url(images/keynote-speaker-icon_21.png);}
+		#speaker4 a {background-image: url(images/keynote-speaker-icon_22.png);}
+		#speaker5 a {background-image: url(images/keynote-speaker-icon_23.png);}
+		#speaker6 a {background-image: url(images/keynote-speaker-icon_24.png);}
+		#speaker7 a {background-image: url(images/keynote-speaker-icon_25.png);}
+		#speaker8 a {background-image: url(images/keynote-speaker-icon_03.png);}
+		#speaker9 a {background-image: url(images/keynote-speaker-icon_05.png);}
+		#speaker10 a {background-image: url(images/keynote-speaker-icon_07.png);}
+		#speaker11 a {background-image: url(images/keynote-speaker-icon_09.png);}
+	#foo1 a:hover {background-position: 0px -92px;}
+	#foo1 #speaker1 a {}
+	#speaker_slider.image_carousel p { color: #5a77b7;margin: 0 auto 10px auto; padding-bottom: 0px;width: 150px; border-bottom: 1px solid #d7e0f3; font-size: 16px;text-align: center;  font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif;}
 	
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
