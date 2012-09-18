@@ -40,7 +40,6 @@
 						duration        : 900},
 					width: '100%',
 				});
-
 				
 				//if (navigator.platform.match(/iP(od|hone|ad)/i)) {
 				//    $(window).scroll(function() {

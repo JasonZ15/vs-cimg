@@ -48,6 +48,7 @@ echo $image[0]; ?>" />
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	<?php wp_head(); ?>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/twitter-script.js" type="text/javascript"></script>
 </head>
 <body <?php body_class(); ?>>
 	<div id="fb-root"></div>
@@ -67,6 +68,12 @@ echo $image[0]; ?>" />
 			<a href="http://www.gmic-sv.com/register" id="go-register" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;">Register</span></span></a>
 			<a style="margin-left:5px;" href="http://www.gmic-sv.com/sponsorship/" id="sponsor" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;"><?php esc_html_e( 'Sponsor', 'Flexible' ); ?></span></span></a>
 			<p class="social-buttons clearfix"><a id="fb" href="http://www.facebook.com/theGMIC" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons.png" /></a><a id="tt" href="http://www.twitter.com/theGMIC" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-02.png" /></a><a id="in" href="http://www.linkedin.com/groups?gid=2825839&trk=hb_side_g" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-03.png" /></a><a id="em" href="mailto: info@gmic-sv.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-05.png" /></a><a id="chinese-overview" href="http://www.gmic-sv.com/overview-chinese" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-06.png" /></a></p>
+			  <div id="twitter-ticker" class="image_carousel">
+   
+        
+        <div id="tweet-container"><img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." /></div>
+        
+    </div>
 			<?php if ( ( $phone_num = et_get_option('flexible_phone_num') ) && '' != $phone_num ) echo '<span id="phone">' . $phone_num . '</span>'; ?>		
 		</header> 
 		<div id="main-area">

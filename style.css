@@ -412,6 +412,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	#foo1 a:hover {background-position: 0px -92px;}
 	#foo1 #speaker1 a {}
 	#speaker_slider.image_carousel p { color: #5a77b7;margin: 0 auto 10px auto; padding-bottom: 0px;width: 150px; border-bottom: 1px solid #d7e0f3; font-size: 16px;text-align: center;  font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif;}
+	/*---------------------[twitter ticker slider]-------------------*/
+	#twitter-ticker.image_carousel {position: static;}
+	#twitter-ticker.image_carousel .tweet {float: left;}
+	
 	
 /*------------------------------------------------*/
 /*--------------------[SIDEBAR]-------------------*/
@@ -420,7 +424,7 @@ a.action-button {display: block; float: left; padding: 3px; background-color: rg
 a.action-button .color {display: block;padding-left: 30px; background:#1a78c8 url(images/transparent-bar.png) 0 0 repeat-y;}
 a.action-button .text {display: block;background-color:#3fa2f7; font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif; padding: 6px 10px 8px 8px; font-size: 18px; }
 a.action-button:hover { background-color: transparent; text-decoration: underline;}
-#header a.action-button {margin: 22px 0 6px -3px;}
+#header a.action-button {margin: 20px 0 6px -3px;}
 
 a#go-register .color {background-color:#3a7709;background-position: -335px 0px;}
 a#go-register .text {background-color:#83ac35;}
@@ -458,8 +462,90 @@ a#gmic-sv-brochure .text {background-color:#fff;font-size: 14px;padding:3px 7px 
 .social-buttons a#em:hover {background: url(images/social-buttons-over-05.png) 0 0 no-repeat;}
 .social-buttons a#chinese-overview:hover {background: url(images/social-buttons-over-06.png) 0 0 no-repeat;}
 .social-buttons a:hover img {visibility: hidden;}
-#header .social-buttons {float: left; clear:left;padding-top: 12px;}
+#header .social-buttons {float: left; clear:left;padding-top: 5px;}
 
+/*------------------------------------------------*/
+/*------------[Twitter Ticker]-----------*/
+/*------------------------------------------------*/
+h2.tut{
+	/* This is the "MY TWEETS" title */
+	color:white;
+	font-family:"Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:12px 0 0 58px;
+	text-transform:uppercase;
+
+	/* The CSS3 text-shadow property */
+	text-shadow:2px 1px 6px #333;
+}
+
+#twitter-ticker{
+	/* Styling the ticker */
+	height:60px;
+	background: transparent url(images/twitter_03.png) 41px 4px no-repeat;
+	color:#666666;
+	display:none;
+	clear: left;
+	width: 590px;
+	padding:0;
+	background-color: transparent;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-top: 0px solid white;
+}
+
+#tweet-container{
+	/* This is where the tweets are inserted */
+	height:230px;
+	width: 500px;
+}
+
+.tweet{
+	/* Affects the tweets */
+	padding:0px;
+	margin:0 8px 0 0;
+
+
+	width:586px;
+}
+#tweet-container .tweet a {color:#1A78C8;}
+.tweet .avatar,
+.tweet .user,
+.tweet .time{
+	float:left;
+}
+
+.tweet .time{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#AAAAAA;
+	white-space:nowrap;
+}
+
+.tweet .avatar img{
+	width:38px;
+	height:38px;
+	border:2px solid #eeeeee;
+	margin:0 5px 5px 0; padding: 4px;
+}
+.tweet .user a {font-size: 12px; font-weight: normal; padding-right: 3px;margin-left:21px;}
+.tweet .txt{
+	/* Using the text container to clear the floats */
+	float: left;
+	width: 510px;
+	font-size: 11px; line-height: 14px;
+	padding-top: 2px;
+}
+.tweet .txt a {display: inline; float: none;}
+.tweet .user{
+	font-weight:bold;
+}
+#loading{
+	/* The loading gif animation */
+	margin:100px 95px;
+}
+#twitter-ticker .avatar {position: static;}
 /*------------------------------------------------*/
 /*------------[CAPTIONS AND ALIGNMENTS]-----------*/
 /*------------------------------------------------*/
