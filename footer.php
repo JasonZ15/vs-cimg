@@ -81,6 +81,7 @@
 	  <a href="#"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/wondershare.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a> 
 	  <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
 	  <a href="http://www.gmic-sv.com/northern-light-venture-capital/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/northernlight.jpg" height="57" style="border: 1px solid #eba706; padding: 0;" /></a>
+	  <a href="http://www.gmic-sv.com/domob/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/domob2.png" height="57" style="border: 1px solid #eba706; padding: 0;" /></a>
 	  <img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/event-partner-tab.jpg" width="97" height="59" style="padding:0; border: none;" />
 	  <a href="http://www.gmic-sv.com/mobile-monday"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/momo_sv_1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a>
 	  <a href="http://www.gmic-sv.com/wip/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/wip-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a>
