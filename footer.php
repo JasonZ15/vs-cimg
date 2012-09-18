@@ -38,8 +38,7 @@
 					auto : {pauseDuration   : 5000},
 					scroll      : {
 						duration        : 900},
-
-					pagination	: "#foo1_pag"
+					width: '100%',
 				});
 
 				

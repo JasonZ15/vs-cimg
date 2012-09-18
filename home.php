@@ -3,19 +3,19 @@
 <?php if ( 'on' == et_get_option('flexible_featured', 'on') && is_home() ) get_template_part( 'includes/featured', 'home' ); ?>
 <div id="speaker_slider" class="image_carousel">
 	<p>Featuring</p>
-	<div id="foo1">
-		<div id="speaker1"><a href="http://www.gmic-sv.com/kevin-chou/"></a><span>Kevin Chou</span><span>CEO, Kabam, Inc.</span></div>
-		<div id="speaker2"><a href="http://www.gmic-sv.com/tim-draper/"></a><span>Tim Draper</span><span>Managing Director, DFJ</span></div>
-		<div id="speaker3"><a href="http://www.gmic-sv.com/lei-jun-2/"></a><span>Lei Jun</span><span>CEO, Xiaomi</span></div>
-		<div id="speaker4"><a href="http://www.gmic-sv.com/aaron-levie/"></a><span>Aaron Levie</span><span>CEO, Box</span></div>
-		<div id="speaker5"><a href="http://www.gmic-sv.com/phil-libin/"></a><span>Phil Libin</span><span>CEO, Evernote</span></div>
-		<div id="speaker6"><a href="http://www.gmic-sv.com/niccolo-de-masi/"></a><span>Niccolo de Masi</span><span>CEO, Glu Mobile</span></div>
-		<div id="speaker7"><a href="http://www.gmic-sv.com/john-riccitiello/"></a><span>John Riccitiello</span><span>CEO, Electronic Arts (EA)</span></div>
-		<div id="speaker8"><a href="http://www.gmic-sv.com/mihir-shah/"></a><span>Mihir Shah</span><span>CEO, Tapjoy</span></div>
-		<div id="speaker9"><a href="http://www.gmic-sv.com/vaughan-smith/"></a><span>Vaughan Smith</span><span>VP, Facebook</span></div>
-		<div id="speaker10"><a href="http://www.gmic-sv.com/tayloe-stansbury/"></a><span>Tayloe Stansbury</span><span>CTO, Intuit</span></div>
-		<div id="speaker11"><a href="http://www.gmic-sv.com/yu-yongfu-2/"></a><span>Yu Yongfu</span><span>CEO, UC Web</span></div>
-	</div>
+	<ul id="foo1">
+		<li id="speaker1"><a href="http://www.gmic-sv.com/kevin-chou/"></a><span>Kevin Chou</span><span>CEO, Kabam, Inc.</span></li>
+		<li id="speaker2"><a href="http://www.gmic-sv.com/tim-draper/"></a><span>Tim Draper</span><span>Managing Director, DFJ</span></li>
+		<li id="speaker3"><a href="http://www.gmic-sv.com/lei-jun-2/"></a><span>Lei Jun</span><span>CEO, Xiaomi</span></li>
+		<li id="speaker4"><a href="http://www.gmic-sv.com/aaron-levie/"></a><span>Aaron Levie</span><span>CEO, Box</span></li>
+		<li id="speaker5"><a href="http://www.gmic-sv.com/phil-libin/"></a><span>Phil Libin</span><span>CEO, Evernote</span></li>
+		<li id="speaker6"><a href="http://www.gmic-sv.com/niccolo-de-masi/"></a><span>Niccolo de Masi</span><span>CEO, Glu Mobile</span></li>
+		<li id="speaker7"><a href="http://www.gmic-sv.com/john-riccitiello/"></a><span>John Riccitiello</span><span>CEO, Electronic Arts (EA)</span></li>
+		<li id="speaker8"><a href="http://www.gmic-sv.com/mihir-shah/"></a><span>Mihir Shah</span><span>CEO, Tapjoy</span></li>
+		<li id="speaker9"><a href="http://www.gmic-sv.com/vaughan-smith/"></a><span>Vaughan Smith</span><span>VP, Facebook</span></li>
+		<li id="speaker10"><a href="http://www.gmic-sv.com/tayloe-stansbury/"></a><span>Tayloe Stansbury</span><span>CTO, Intuit</span></li>
+		<li id="speaker11"><a href="http://www.gmic-sv.com/yu-yongfu-2/"></a><span>Yu Yongfu</span><span>CEO, UC Web</span></li>
+	</ul>
 	<div class="clearfix"></div>
 </div>
 

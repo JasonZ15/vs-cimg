@@ -110,7 +110,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 	#phone { position: absolute; right: 0; top: -16px; font-style: italic; }	
 	#main-area { margin-bottom: 0px; background-color: #fff; background-color: rgba(255, 255, 255, 0.4); /*-webkit-box-shadow: 0px 0 4px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0 4px rgba(0, 0, 0, 0.1); box-shadow: 0px 0 4px rgba(0, 0, 0, 0.1); */}	
 	.page-template-page-landing-php #main-area, .page-template-page-landing-chn-php #main-area { background: rgba(255, 255, 255, 0.4) url(images/sanjose.jpg) center bottom no-repeat; }
-		#featured { margin-bottom:58px; position: relative; }
+		#featured { margin-bottom:48px; position: relative; }
 			#left-arrow, #right-arrow { position: absolute; text-indent: -9999px; top: 50%; margin-top: -18px; width: 28px; height: 37px; display: block; }
 			#left-arrow { left: 65px; background:url(images/left-arrow.png) no-repeat; }
 			#right-arrow { right: 65px; background:url(images/right-arrow.png) no-repeat; }
@@ -336,8 +336,12 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	#speaker_slider.image_carousel {position: static;}
 	.image_carousel {
 		padding: 15px 0 0px 0px; 
-		background: #e5e5e5 url("images/control_panel/body-bg17.png") repeat 0 0; bottom: 0; position: fixed; z-index: 99999999;
-		width: 100%; left:0;
+		background: #e5e5e5 url("images/control_panel/body-bg17.png") repeat 0 0; 
+		position: fixed; 
+		bottom: 0; 
+		left:0;
+		width: 100%;
+		z-index: 99999999;
 		-moz-box-shadow:    inset 0px 0px 8px #4c4c4c;
 	    -webkit-box-shadow: inset 0px 0px 8px #4c4c4c;
 	    box-shadow:         inset 0px 0px 8px #4c4c4c;
@@ -389,10 +393,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	    -webkit-box-shadow: none;
 	    box-shadow:         none;
 	    border-top: 0px solid #fff;
-	    margin-top: -10px;
 	    padding: 0 0 28px 0;
 	}
 	#foo1 div {height: 150px;width: 160px;float: left;}
+		#foo1 li {height: 150px;width: 160px;float: left; display: block;}
 	#foo1 span {display: block;text-align:center;}
 	#foo1 a {margin:0 auto; float: none; display:block; width: 90px; height: 90px; background: transparent url(images/keynote-speaker-icon_11.png) 0 0 no-repeat;}
 		#speaker2 a {background-image: url(images/keynote-speaker-icon_19.png);}
@@ -677,6 +681,9 @@ body.tax-project_category .wp-pagenavi { border-top: 1px solid #F0F0E5; padding:
 	
 	.post-content p.silicon img { width: 380px;}
 	.post-content p.beijing img { margin-top: -16px;}
+	
+	#breadcrumbs {height: 48px;}
+	#breadcrumbs #top-menu {height: 48px;}
 }
 
 @media only screen and ( max-width: 767px ) {
@@ -811,6 +818,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffefe', end
 	min-height:50%;
 }
 html {background-image: none;}
+#breadcrumbs {height: 48px;}
+#breadcrumbs #top-menu {height: 48px;}
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
