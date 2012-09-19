@@ -100,6 +100,10 @@
 	</section> <!-- end #blog -->
 <?php } ?>
 
+	<div id="twitter-ticker" class="image_carousel">        
+        <div id="tweet-container"><img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." /></div>       
+    </div>
+
 <?php if ( 'on' == et_get_option('flexible_blog_style') ) { ?>
 	<div id="content-area" class="clearfix">
 		<div id="left-area">		

@@ -128,7 +128,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 			#portfolio-grid { clear: both; }
 				.portfolio-item { float: left; width: 240px; line-height: 0; }
 			#blog-grid { clear: both; font-weight: lighter; }	
-				.blog-item { float: left; width: 196px; border-top: 1px solid #f0f0e5; border-right: 1px solid #f0f0e5; position: relative; padding: 44px 45px 41px 78px; }
+				.blog-item { float: left; width: 196px; border-top: 1px solid #f0f0e5; border-right: 1px solid #f0f0e5; position: relative; padding: 44px 45px 24px 78px;}
 				.last { border-right: none; }
 					span.date { position: absolute; top: 0; left: 0; display: block; background-color: #f5f5ec; border-right: 1px solid #eaeadd; border-bottom: 1px solid #eaeadd; width: 48px; height: 45px; text-align: center; font-size: 11px; text-transform: uppercase; padding-top: 3px; }
 						span.date strong { display: block; font-size: 22px; font-weight: bold; margin-top: -3px; color: #676761; }
@@ -424,7 +424,7 @@ a.action-button {display: block; float: left; padding: 3px; background-color: rg
 a.action-button .color {display: block;padding-left: 30px; background:#1a78c8 url(images/transparent-bar.png) 0 0 repeat-y;}
 a.action-button .text {display: block;background-color:#3fa2f7; font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif; padding: 6px 10px 8px 8px; font-size: 18px; }
 a.action-button:hover { background-color: transparent; text-decoration: underline;}
-#header a.action-button {margin: 20px 0 6px -3px;}
+#header a.action-button {margin: 22px 0 6px -3px;}
 
 a#go-register .color {background-color:#3a7709;background-position: -335px 0px;}
 a#go-register .text {background-color:#83ac35;}
@@ -462,7 +462,7 @@ a#gmic-sv-brochure .text {background-color:#fff;font-size: 14px;padding:3px 7px 
 .social-buttons a#em:hover {background: url(images/social-buttons-over-05.png) 0 0 no-repeat;}
 .social-buttons a#chinese-overview:hover {background: url(images/social-buttons-over-06.png) 0 0 no-repeat;}
 .social-buttons a:hover img {visibility: hidden;}
-#header .social-buttons {float: left; clear:left;padding-top: 5px;}
+#header .social-buttons {float: left; clear:left;padding-top: 12px;}
 
 /*------------------------------------------------*/
 /*------------[Twitter Ticker]-----------*/
@@ -494,7 +494,9 @@ h2.tut{
 box-shadow: none;
 border-top: 0px solid white;
 }
-
+.home #twitter-ticker, .page #twitter-ticker {width: 960px;padding:0; margin:0; background-position: 43px 14px;border-top: 1px solid #f0f0e5;padding-top:10px;}
+#sidebar #twitter-ticker {width: 260px; height: 90px;border-top: 1px solid #f0f0e5; border-bottom: 1px solid #f0f0e5; margin-bottom: 10px;}
+#text-2 {margin-top: -25px;}
 #tweet-container{
 	/* This is where the tweets are inserted */
 	height:230px;
@@ -509,6 +511,8 @@ border-top: 0px solid white;
 
 	width:586px;
 }
+.home .tweet, .page .tweet {width: 960px; padding:0; margin:0;}
+#sidebar .tweet {width: 260px;}
 #tweet-container .tweet a {color:#1A78C8;}
 .tweet .avatar,
 .tweet .user,
@@ -537,6 +541,8 @@ border-top: 0px solid white;
 	font-size: 11px; line-height: 14px;
 	padding-top: 2px;
 }
+.home .tweet .txt, .page .tweet .txt {width: 800px;}
+#sidebar .tweet .txt {width: 200px;}
 .tweet .txt a {display: inline; float: none;}
 .tweet .user{
 	font-weight:bold;

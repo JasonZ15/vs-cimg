@@ -41,7 +41,7 @@ function TweetTick(ob)
 	x = x + 1;
 	if (x == 1){ 
 	container.carouFredSel({		
-		width: 590,
+		width: '100%',
 		auto : {pauseDuration   : 6000},
 		scroll      : {duration : 200},	
 		items   : 1,
