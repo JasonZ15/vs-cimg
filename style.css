@@ -300,7 +300,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .footer_wrap { background: transparent url("images/whitebar.png") 0px -18px no-repeat;padding-top:47px;}
 	
 #main_footer { background: transparent url("images/bluebar.jpg") left bottom no-repeat;padding: 26px 0 38px 0;}
-#main_footer {margin-bottom: 110px;}
+#main_footer {margin-bottom: 85px;}
 	/*---------------------[back to top button]-------------------*/
 	.home #backtotop {visibility: hidden;}
 	#backtotop {
@@ -332,10 +332,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	.list_carousel {margin-left: 30px; border-left: 0px dotted #4083c6;}
 	.carousel_wrapper {width: 760px;}
 	ul#foo2 > li { list-style: none;}
-	h2.agenda_title {visibility: hidden;}
+	h2.agenda_title {}
 	#speaker_slider.image_carousel {position: static;}
 	.image_carousel {
-		padding: 15px 0 0px 0px; 
+		padding: 10px 0 0px 0px; 
 		background: #e5e5e5 url("images/control_panel/body-bg17.png") repeat 0 0; 
 		position: fixed; 
 		bottom: 0; 
@@ -355,6 +355,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		display: block;
 		float: left;
 	}
+	.image_carousel ul li {float: left;}
 	.image_carousel .pagination {
 		text-align: center;
 		padding: 0;
@@ -384,7 +385,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		float: none;
 		clear: both;
 	}
-	img.title-tab {position: fixed; bottom: 97px; z-index: 99999999999999999; padding-left: 16px; left: 80px;}
+	img.title-tab {position: fixed; bottom: 72px; z-index: 99999999999999999; padding-left: 16px; left: 80px;}
 	/*---------------------[speaker slider homepage]-------------------*/
 	#speaker_slider.image_carousel {
 		background-image: none;
@@ -494,7 +495,7 @@ h2.tut{
 box-shadow: none;
 border-top: 0px solid white;
 }
-.home #twitter-ticker, .page #twitter-ticker {width: 960px;padding:0; margin:0; background-position: 43px 14px;border-top: 1px solid #f0f0e5;padding-top:10px;}
+.home #twitter-ticker, .page #twitter-ticker {width: 100%;padding:0; margin:0; background-position: 43px 14px;border-top: 1px solid #f0f0e5;padding-top:10px;}
 #sidebar #twitter-ticker {width: 260px; height: 90px;border-top: 1px solid #f0f0e5; border-bottom: 1px solid #f0f0e5; margin-bottom: 10px;}
 #text-2 {margin-top: -25px;}
 #tweet-container{
@@ -511,7 +512,7 @@ border-top: 0px solid white;
 
 	width:586px;
 }
-.home .tweet, .page .tweet {width: 960px; padding:0; margin:0;}
+.home .tweet, .page .tweet, .single .tweet {width: auto;padding:0; margin:0;float: left; line-height: 16px;}
 #sidebar .tweet {width: 260px;}
 #tweet-container .tweet a {color:#1A78C8;}
 .tweet .avatar,
@@ -519,7 +520,7 @@ border-top: 0px solid white;
 .tweet .time{
 	float:left;
 }
-
+#sidebar .tweet .avatar {margin-bottom: 32px;}
 .tweet .time{
 	text-transform:uppercase;
 	font-size:10px;
@@ -541,7 +542,7 @@ border-top: 0px solid white;
 	font-size: 11px; line-height: 14px;
 	padding-top: 2px;
 }
-.home .tweet .txt, .page .tweet .txt {width: 800px;}
+.home .tweet .txt, .page .tweet .txt, .single .tweet .txt {width: auto;float: none; line-height: 12px;}
 #sidebar .tweet .txt {width: 200px;}
 .tweet .txt a {display: inline; float: none;}
 .tweet .user{
@@ -738,6 +739,7 @@ body.tax-project_category .wp-pagenavi { border-top: 1px solid #F0F0E5; padding:
 	#left-area { width: 473px; }
 	#content-area:before { left: 473px; }
 	#sidebar { width: 255px; }
+	#sidebar #twitter-ticker {display: none;visibility: hidden;height:0;}
 	.depth-4 .children { padding-left: 0; }
 	
 	#et_contact_right { width: auto !important; margin-left: 0 !important; float: none !important; clear: both; }

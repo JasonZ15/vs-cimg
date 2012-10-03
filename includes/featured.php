@@ -49,9 +49,13 @@
 						);
 		} ?>
 		<li class="slide">					
+				<a href="http://www.gmic-sv.com/visionary-internet-investor-and-founder-of-dst-global-yuri-milner-to-speak-at-gmic-sv/">							
+					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/slider960x360-speaker-quote-yuri.jpg" alt="yuri-milner" width="960px" height="360px"></a>
+		</li>
+		<li class="slide">					
 				<a href="http://www.gmic-sv.com/sponsorship/">							
 					<img src="http://static.gmic-sv.com/wp-content/uploads/2012/08/companies-slide32.jpg" alt="Sponsorship" width="960px" height="360px"></a>
-			</li>
+		</li>
 		<li class="slide">					
 				<a href="http://www.gmic-sv.com/vp-of-mobile-to-discuss-facebooks-mobile-strategy-at-gmic-sv/">							
 					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/slider960x360-speaker-quote-facebook.jpg" alt="Keynote Speaker" width="960px" height="360px"></a>
