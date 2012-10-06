@@ -47,7 +47,7 @@
 			print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext, $width, $height, $classtext);
 		}
 	?>
-	<div style="float: right; padding-right: 12px;padding-top:20px;">
+	<div class="app_sidebar" style="float: right; padding-right: 12px;padding-top:20px;">
 		<b>Vote for Others:</b>
 		<ul style="padding-bottom:6px;">
 			<?php
@@ -63,7 +63,7 @@
 		<b><a href="http://www.gmic-sv.com/appattack/">Submit Your Own App &rarr;</a></b>
 	 </div>
 	<h1 style="" class="page_title"><?php the_title(); ?></h1>	
-	<p>Developer: 
+	<p class="app_info">Developer: 
 		<?php 
 		$developer_website = get_post_meta($post->ID,'app_url',true);
 
