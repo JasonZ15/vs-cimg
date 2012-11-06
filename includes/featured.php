@@ -49,17 +49,21 @@
 						);
 		} ?>
 		<li class="slide">					
-				<a href="http://www.gmic-sv.com/visionary-internet-investor-and-founder-of-dst-global-yuri-milner-to-speak-at-gmic-sv/">							
-					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/slider960x360-speaker-quote-yuri.jpg" alt="yuri-milner" width="960px" height="360px"></a>
+				<a href="https://www.facebook.com/thegmic/photos_albums">							
+					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/photos.jpg" alt="gmicsv-numbers" width="960px" height="360px"></a>
+		</li>
+		<li class="slide">					
+				<a href="http://www.gmic-sv.com/reason-5-to-attend-gmic-sv-20-startups-from-10-countries-competing-in-g-startup/">							
+					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/numbers-slide3.jpg" alt="gmicsv-numbers" width="960px" height="360px"></a>
 		</li>
 		<li class="slide">					
 				<a href="http://www.gmic-sv.com/sponsorship/">							
 					<img src="http://static.gmic-sv.com/wp-content/uploads/2012/08/companies-slide32.jpg" alt="Sponsorship" width="960px" height="360px"></a>
 		</li>
-		<li class="slide">					
+		<!--<li class="slide">					
 				<a href="http://www.gmic-sv.com/vp-of-mobile-to-discuss-facebooks-mobile-strategy-at-gmic-sv/">							
 					<img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/slider960x360-speaker-quote-facebook.jpg" alt="Keynote Speaker" width="960px" height="360px"></a>
-		</li>
+		</li>-->
 		<?php while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
 			<li class="slide">					
 				<a href="<?php echo esc_url( get_permalink() ); ?>">							

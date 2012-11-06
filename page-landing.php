@@ -4,6 +4,9 @@ Template Name: Landing Page
 */
 ?>
 <?php get_header(); ?>
+
+<?php get_template_part('includes/breadcrumbs', 'page'); ?>
+
 <div id="content-area" class="fullwidth clearfix">
 	<div id="left-area">
 						

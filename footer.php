@@ -83,28 +83,17 @@
 	  <li style="width: 111px;"><img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/platinum-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.gmic-sv.com/tapjoy/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/tapjoy_logo_small.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a></li> 
 	  <li style="width: 139px;"><a href="#"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/wondershare.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a></li> 
-	  <li style="width: 139px;"><a href="http://www.google.com/ads/admob/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/AdMob-Logo.png" height="57" style="border: 1px solid #547bed; padding: 0;" /></a></li> 
+	  <li style="width: 139px;"><a href="http://www.google.com/ads/admob/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/AdMob-Logo.png" width="113" style="border: 1px solid #547bed; padding: 0;" /></a></li> 
 	  <li style="width: 111px;"><img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/gold-sponsor-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
 	  <li style="width: 139px;"><a href="http://www.gmic-sv.com/northern-light-venture-capital/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/northernlight.jpg" height="57" style="border: 1px solid #eba706; padding: 0;" /></a></li>
 	  <li style="width: 139px;"><a href="http://www.gmic-sv.com/domob/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/09/domob2.png" height="57" style="border: 1px solid #eba706; padding: 0;" /></a></li>
-	  <li style="width: 139px;"><a href="http://www.yolu.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/yolu.jpg" height="57" style="border: 1px solid #eba706; padding: 0;" /></a></li>	  
+	  <li style="width: 139px;"><a href="http://www.yolu.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/yolu1.jpg" width="123" style="border: 1px solid #eba706; padding: 2px 0 2px 0;" /></a></li>	  
+	  <li style="width: 139px;"><a href="http://thebitcellar.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/bitcellas.jpg" width="123" style="border: 1px solid #eba706; padding: 6px 0 8px 0;" /></a></li>
+	  <li style="width: 139px;"><a href="http://www.startmeapp.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/10/SMA.png" width="123" style="border: 1px solid #eba706; padding: 6px 0 6px 0;" /></a></li>
 	  <li style="width: 111px;"><img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/strategic-partner-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
-	  <li style="width: 111px;"><a href="http://www.mobileroadie.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/strategic-partner-mobileroadie1.jpg" width="77" height="40" style="border: 1px solid #6ba46a;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/wp-content/uploads/2012/07/btrax_h_logo-2.1.png"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/btrax_h_logo-2.1.png" width="77" height="40" style="border: 1px solid #6ba46a;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/engage-digital"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/app-conference1.jpg" width="77" height="40" style="border: 1px solid #6ba46a;" /></a></li>
-	  <li style="width: 111px;"><img src="http://www.gmic-sv.com/wp-content/themes/gmic-sv/images/event-partner-tab.jpg" width="97" height="59" style="padding:0; border: none;" /></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/mobile-monday"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/08/momo_sv_1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/wip/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/wip-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/svforum/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/svforum-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/hysta/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/hysta-partner-event-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/svcwireless/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/svc-wireless-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>  
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/sventrepreneurs/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/SV-entrepreneuers-partner-event-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>   
-	  <li style="width: 111px;"><a href="＃"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/cbnweekly-partner-promo-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li> 
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/99people/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/99people-partner-event-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li> 
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/sipa"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/sipa-partner-event-1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li> 
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/rightventures"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/RightVentures_1.png" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li> 
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/latino-startup-alliance/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/LSA_1.png" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>
-	  <li style="width: 111px;"><a href="http://www.gmic-sv.com/bay-brazil"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/baybrazil_1.jpg" width="77" height="40" style="border: 1px solid #2fa7b9;" /></a></li>
+	  <li style="width: 121px;"><a href="http://www.mobileroadie.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/strategic-partner-mobileroadie1.jpg" width="92" style="border: 1px solid #6ba46a;" /></a></li>
+	  <li style="width: 121px;"><a href="http://www.btrax.com/"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/btrax_h_logo-2.1.png" width="92" style="border: 1px solid #6ba46a;" /></a></li>
+	  <li style="width: 121px;"><a href="http://www.gmic-sv.com/engage-digital"><img src="http://www.gmic-sv.com/wp-content/uploads/2012/07/app-conference1.jpg" width="92" style="border: 1px solid #6ba46a;" /></a></li>
 	</ul>
 	<div class="clearfix"></div>
 	<div class="pagination" id="foo3_pag"></div>

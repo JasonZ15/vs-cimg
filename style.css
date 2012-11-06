@@ -174,6 +174,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 			#sidebar { width: 320px; float:left; }
 				.widget { padding: 50px 10px 8px 50px; }
 					#categoryposts-2.widget {padding-top: 32px;}
+					#text-4.widget {padding-top: 20px;}
 					#text-3.widget {padding-top: 16px;}
 					.widgettitle { font-weight: bold; text-transform: uppercase; font-size: 14px; color: #676761; padding-bottom: 13px; }
 						.widget li { background:url(images/footer-bullet.png) no-repeat 0 8px; padding-bottom: 7px; padding-left: 15px; font-weight: normal; font-size: 14px; }
@@ -206,6 +207,8 @@ body.single-project .flexslider { min-height: 485px; }
 	#et_portfolio_sort_links li { display: inline; margin: 0 8px; }
 		#et_portfolio_sort_links a, #et_portfolio_sort_links .active a:hover { color: #676761; font-size: 14px; text-transform: uppercase; }
 		#et_portfolio_sort_links a:hover { text-decoration: none; color: #111; }
+		.speakers_page#et_portfolio_sort_links a, .speakers_page#et_portfolio_sort_links .active a:hover { color: #1A78C8; font-size: 14px; border-bottom: 1px dotted #1A78C8; font-weight: bold; text-transform: none;}
+		.speakers_page#et_portfolio_sort_links a:hover { text-decoration: none; color: #111; border-bottom: none;}
 		#et_portfolio_sort_links .active a { font-weight: bold; }
 		
 		table {border-top: 1px solid #999; border-right: 1px solid #999;}
@@ -847,6 +850,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffefe', end
 	.page-template-page-landing-php .page_title.sanjose, .page-template-page-landing-chn-php .page_title.sanjose {font-size:32px; line-height: 30px;}
 	.page-template-page-landing-php .page_title.sanjose span, .page-template-page-landing-chn-php .page_title.sanjose span {font-size: 28px;}
 	.post-content p.beijing img {margin: 0 auto; clear: both;float:none;display:block;}
+.title-tab {display: none;}
+.image_carousel {display:none;}
+#breadcrumbs {display: none;}
+#main_footer {margin-bottom: 0px;}
+#header .social-buttons {
+float: none;
+width: 146px;
+margin: 0 auto 0 auto;
+}
+#logo-area {margin-bottom: 0;}
 }
 
 @media only screen and ( max-width: 479px ) {
