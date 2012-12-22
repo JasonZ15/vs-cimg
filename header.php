@@ -60,7 +60,12 @@ echo $image[0]; ?>" />
 <body <?php body_class(); ?>>
 	<div id="fb-root"></div>
 
-
+	<div id="top-bar"><div class="holder">
+		<a href="http://www.thegmic.com" id="thegmic"></a>
+		<a href="http://gmic.greatwallclub.com" id="gmic-beijing"></a>
+		<a href="http://www.gmic-sv.com" id="gmic-sv"></a>
+		<a href="http://www.thegmic.com" class="chinese"></a>
+		</div></div>
 	<div id="container">
 		<?php do_action('et_header_top'); ?>
 		<header id="header" class="clearfix">

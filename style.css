@@ -92,7 +92,13 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 /*------------------------------------------------*/
 /*---------------[MAIN LAYOUT INFO]---------------*/
 /*------------------------------------------------*/
-
+#top-bar {background: #212121 url(images/bar-on-top.png) center 0 no-repeat;}
+#top-bar .holder {width: 960px; margin: 0 auto; height: 29px; position: relative;}
+#top-bar .holder a {position: absolute; top: 0;display: block; height: 29px;}
+a#thegmic {width:34px; left:0;}
+a#gmic-beijing {left: 46px; width:200px;}
+a#gmic-sv {left: 250px; width:224px;}
+a.chinese {right:0; width:48px;}
 #container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
 	#logo-area { float: right; margin-bottom: 21px; }
 		#logo { float: left; font-weight: bold; font-size: 34px; text-transform: uppercase; }
@@ -306,7 +312,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 .footer_wrap { background: transparent url("images/whitebar.png") 0px -18px no-repeat;padding-top:47px;}
 	
-#main_footer { background: transparent url("images/bluebar.jpg") left bottom no-repeat;padding: 26px 0 38px 0;}
+#main_footer { background: transparent url("images/bluebar.png") left bottom no-repeat;padding: 26px 0 38px 0;}
 #main_footer {margin-bottom: 85px;}
 	/*---------------------[back to top button]-------------------*/
 	.home #backtotop {visibility: hidden;}
