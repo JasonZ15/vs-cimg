@@ -63,8 +63,7 @@ echo $image[0]; ?>" />
 	<div id="top-bar"><div class="holder">
 		<a href="http://www.thegmic.com" id="thegmic"></a>
 		<a href="http://gmic.greatwallclub.com" id="gmic-beijing"></a>
-		<a href="http://www.gmic-sv.com" id="gmic-sv"></a>
-		<a href="http://www.thegmic.com" class="chinese"></a>
+		<a href="http://sv.thegmic.com" id="gmic-sv"></a>
 		</div></div>
 	<div id="container">
 		<?php do_action('et_header_top'); ?>
@@ -77,7 +76,7 @@ echo $image[0]; ?>" />
 				<h2><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
 			
-			<a style="margin-right:9px;" href="http://www.gmic-sv.com/register" id="go-register" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;">Register</span></span></a>
+			<a style="margin-right:9px;" href="http://sv.thegmic.com" id="go-register" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;">Visit GMIC SV 2013</span></span></a>
 			<a href="http://www.gmic-sv.com/sponsorship/" id="sponsor" class="action-button"><span class="color" style="padding-left: 16px;"><span class="text" style="font-size: 32px; padding: 12px 23px 14px 17px;"><?php esc_html_e( 'Sponsor', 'Flexible' ); ?></span></span></a>
 			<p class="social-buttons clearfix"><a id="fb" href="http://www.facebook.com/theGMIC" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons.png" /></a><a id="tt" href="http://www.twitter.com/theGMIC" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-02.png" /></a><a id="in" href="http://www.linkedin.com/groups?gid=2825839&trk=hb_side_g" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-03.png" /></a><a id="em" href="mailto: info@gmic-sv.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-05.png" /></a><a id="chinese-overview" href="http://www.gmic-sv.com/overview-chinese" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-buttons-06.png" /></a></p>
 			<?php if ( ( $phone_num = et_get_option('flexible_phone_num') ) && '' != $phone_num ) echo '<span id="phone">' . $phone_num . '</span>'; ?>		
