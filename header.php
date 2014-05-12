@@ -55,7 +55,9 @@ echo $image[0]; ?>" />
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	<?php wp_head(); ?>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/twitter-script.js" type="text/javascript"></script>
+	 <script type="text/javascript" src="http://www.gmic-sv.com/demo/jScrollPane/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="http://www.gmic-sv.com/demo/jScrollPane/jScrollPane.min.js"></script>
+    <script type="text/javascript" src="http://www.gmic-sv.com/demo/script.js"></script>
 </head>
 <body <?php body_class(); ?>>
 	<div id="fb-root"></div>
